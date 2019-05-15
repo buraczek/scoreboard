@@ -150,6 +150,7 @@ public class ClockImpl extends ScoreBoardEventProviderImpl implements Clock {
             } else {
                 setMaximumTime(DEFAULT_MAXIMUM_TIME);
             }
+            resetTime();
         }
     };
 
